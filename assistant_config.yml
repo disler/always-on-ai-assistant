@@ -1,14 +1,14 @@
 typer_assistant:
   assistant_name: Ada
-  human_companion_name: Dan
+  human_companion_name: Knox
   ears: realtime-stt
   brain: deepseek-v3 # only deepseek-v3
   voice: elevenlabs # local, elevenlabs
   elevenlabs_voice: WejK3H1m7MI9CHnIjW9K
 base_assistant:
   assistant_name: Ada
-  human_companion_name: Dan
+  human_companion_name: Knox
   ears: realtime-stt
   brain: ollama:phi4 # deepseek-v3, ollama:phi4, ollama:<any installed model>
-  voice: local # local, elevenlabs
-  elevenlabs_voice: WejK3H1m7MI9CHnIjW9K
+  voice: elevenlabs # local, elevenlabs
+  elevenlabs_voice: D0gaBouVhCK4S79eBTSG #WejK3H1m7MI9CHnIjW9K

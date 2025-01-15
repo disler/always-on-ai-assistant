@@ -6,11 +6,25 @@
 ![ada-deepseek-v3.png](./images/ada-deepseek-v3.png)
 
 ## Setup
+
+### .env
 - `cp .env.sample .env`
   - Update with your keys `DEEPSEEK_API_KEY` and `ELEVEN_API_KEY`
 - `uv sync`
 - (optional) install python 3.11 (`uv python install 3.11`)
 
+### assistant_config.yml <- Don't forget to change these
+The `assistant_config.yml` file contains the configuration for the assistant.
+- `assistant_name`: the name of the assistant
+- `human_companion_name`: the name of the human companion
+- `ears`: the ears of the assistant (RealtimeSTT, ollama, etc.)
+- `brain`: the brain of the assistant (Deepseek-V3, ollama:phi4, ollama:<any installed model>, etc.)
+- `voice`: the voice of the assistant (ElevenLabs, local, etc.)
+- `elevenlabs_voice`: the voice of the assistant (local, ElevenLabs)
+
+### Linux only
+If you recieve the error: `Unable to load any of {libcudnn_ops.so.9.1.0, libcudnn_ops.so.9.1, libcudnn_ops.so.9, libcudnn_ops.so}` 
+- `sudo apt install libcudnn9-cuda-12` (assuming you have cuda 12 installed)
 
 ## Commands
 
