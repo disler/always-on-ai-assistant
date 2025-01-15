@@ -13,15 +13,15 @@
 - `uv sync`
 - (optional) install python 3.11 (`uv python install 3.11`)
 
-### assistant_config.yml <- Don't forget to change these
-The `assistant_config.yml` file contains the configuration for the assistant.
-- `assistant_name`: the name of the assistant
-- `human_companion_name`: the name of the human companion
-- `ears`: the ears of the assistant (RealtimeSTT, ollama, etc.)
-- `brain`: the brain of the assistant (Deepseek-V3, ollama:phi4, ollama:<any installed model>, etc.)
-- `voice`: the voice of the assistant (ElevenLabs, local, etc.)
-- `elevenlabs_voice`: the voice of the assistant (local, ElevenLabs) 
-  - if using elevenlabs, you will need to select a voice form the elevenlabs website.
+### assistant_config.yml
+- `cp assistant_config.yml.sample assistant_config.yml`
+  - `assistant_name`: the name of the assistant
+  - `human_companion_name`: the name of the human companion
+  - `ears`: the ears of the assistant (RealtimeSTT, ollama, etc.)
+  - `brain`: the brain of the assistant (Deepseek-V3, ollama:phi4, ollama:<any installed model>, etc.)
+  - `voice`: the voice of the assistant (ElevenLabs, local, etc.)
+  - `elevenlabs_voice`: the voice of the assistant (local, ElevenLabs) 
+    - if using elevenlabs, you will need to select a voice form the elevenlabs website.
 
 ### Linux only
 If you recieve the error: `Unable to load any of {libcudnn_ops.so.9.1.0, libcudnn_ops.so.9.1, libcudnn_ops.so.9, libcudnn_ops.so}` 
