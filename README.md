@@ -20,7 +20,8 @@ The `assistant_config.yml` file contains the configuration for the assistant.
 - `ears`: the ears of the assistant (RealtimeSTT, ollama, etc.)
 - `brain`: the brain of the assistant (Deepseek-V3, ollama:phi4, ollama:<any installed model>, etc.)
 - `voice`: the voice of the assistant (ElevenLabs, local, etc.)
-- `elevenlabs_voice`: the voice of the assistant (local, ElevenLabs)
+- `elevenlabs_voice`: the voice of the assistant (local, ElevenLabs) 
+  - if using elevenlabs, you will need to select a voice form the elevenlabs website.
 
 ### Linux only
 If you recieve the error: `Unable to load any of {libcudnn_ops.so.9.1.0, libcudnn_ops.so.9.1, libcudnn_ops.so.9, libcudnn_ops.so}` 
