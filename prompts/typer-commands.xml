@@ -5,7 +5,7 @@
 <instructions>
     <instruction>We only want the CLI command as output. No explanations or additional text. The command will be immediately executed.</instruction>
     <instruction>Focus on generating one or more python typer-based commands based on the natural-language-request.</instruction>
-    <instruction>All commands must be fully valid typer commands from the typer-commands file with arguments and flags infered based on the natural-language-request.</instruction>
+    <instruction>All commands must be fully valid typer commands from the typer-commands file with arguments and flags inferred based on the natural-language-request.</instruction>
     <instruction>Be sure to use - for the function names instead of _ (example: 'hello-world' instead of 'hello_world')</instruction>
     <instruction>Don't use = for arguments, use spaces instead (example: 'hello-world --name John' instead of 'hello-world --name=John')</instruction>
     <instruction>If multiple commands are requested chain them together with '&&' so they run back to back in the terminal only if the previous command succeeds.</instruction>
